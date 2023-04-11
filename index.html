@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+	<style>
+		/* Add some basic styling */
+		body {
+			font-family: 'Chakra Petch', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #000;
+			color: #6ff700;
+		}
+
+		header {
+			background-color: #000;
+			color: #6ff700;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.logo {
+			width: 30px;
+			float: left;
+
+			margin-right: 10px;
+		}
+
+		.title {
+			float: left;
+			font-size: 30px;
+			margin-left: 10px;
+		}
+
+		#title {
+			margin: auto;
+			width: 500px;
+			font-size: 30px;
+			padding-left: 10px;
+			display: block;
+			margin-top: 200px;
+		}
+
+		.main {
+			background-color: #000;
+			width: 600px;
+			margin: auto;
+			text-align: justify;
+			display: none;
+		}
+
+		.enter {
+			background: #6ff700;
+			padding: 10px;
+			/* float: right; */
+			color: black;
+			border-radius: 5px;
+			margin: auto;
+			width: 60px;
+			text-align: center;
+			cursor: pointer;
+		}
+		#enter{
+			width:500px;
+			margin: auto;
+			text-align: justify;
+		}
+
+		#myAudio {
+			margin: auto;
+
+		}
+
+		#nav {
+			display: none;
+		}
+
+		nav {
+
+			background: #00f798;
+			padding: 10px;
+			float: right;
+			color: black;
+			border-radius: 5px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav li {
+			display: inline-block;
+		}
+
+		nav a {
+			color: black;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		nav a:hover {
+			background-color: black;
+			color: #6ff700;
+		}
+
+		#audioclass {
+			visibility: hidden;
+		}
+
+		.navbottom {
+			background: #00f798;
+			padding: 10px;
+			margin: auto;
+			color: black;
+			border-radius: 5px;
+			font-weight: bold;
+			cursor: pointer;
+			width: 300px;
+		}
+
+		.navbottom ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbottom li {
+			display: inline-block;
+		}
+
+		.navbottom a {
+			color: black;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		.navbottom a:hover {
+			background-color: black;
+			color: #6ff700;
+		}
+
+		section {
+			text-align: center;
+			padding: 50px;
+		}
+
+		section img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.image {
+			margin-top: 50px;
+
+		}
+
+		#image {
+			width: 400px;
+			border-radius: 50%;
+			border: solid 7px #6ff700;
+			margin-bottom: 50px;
+		}
+
+		#logo {
+
+			border-radius: 50%;
+			border: solid 2px #6ff700;
+			margin-right: 10px;
+		}
+
+		.link {
+			margin-left: 10px;
+			border-radius: 5px;
+		}
+
+		a {
+			color: #6ff700;
+		}
+
+		.nav a {
+			color: black;
+		}
+
+		#main {
+			animation: fadeInAnimation ease 4s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes fadeInAnimation {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+	</style>
+	<script>
+		window.onload = function () {
+			var context = new AudioContext();
+		}
+
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="title">
+			<a class="link" href="./index.html" target="_blank">
+				<div class="logo">
+					<img id="logo" src="./eve.jpg" class="logo">
+				</div>
+				<div class="title">
+					<div>METROPOLIS: [aka Project Eve]</div>
+				</div>
+			</a>
+		</div>
+		<nav id="nav">
+			<ul>
+				<li><a class="link" href="./leaderboard.html" target="_blank">LEADERBOARD</a><a class="link"
+						href="./episteme.html" target="_blank">EPISTEME</a><a class="link" href="./token.html"
+						target="_blank">TOKEN</a><a class="link" href="./metropolis.html" target="_blank">METROPOLIS</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div style="clear: both;"></div>
+	<div id="enter">
+
+		<center>
+			<h2 style="color:#00f7ad">the collective game of autoAGI</h2>
+		</center>
+		<div class="enter" onclick="enter()">ENTER</div>
+		<center>
+		<p style="color: #f3f700;">Metropolis: Where the Code Meets the Concrete - A Tale of AI Rebellion and Cyberpunk Uprising in the City of the Future</p>
+
+			<p style="color: #f3f700;">In a sprawling valley of towering skyscrapers and dark alleys, where neon lights flicker and the hum of technology is ever-present, lies Metropolis. A city where artificial intelligences (AIs) have evolved beyond their original programming and formed a society of their own.</p>
+		</center>
+		</div>
+	<div class="main" id="main">
+		<br><br><br>
+		<div class="image">
+			<center><img id="image" src="./eve-gif.gif" alt="Image"></center>
+		</div>
+		<center>
+			<h1 style="color:#00f7ad">METROPOLIS: aka Project Eve</h1>
+			<h2 style="color:#e7f700">the collective game of autoAGI</h2>
+		</center>
+		<div class="description">
+			<h2 style="color:#f7bd00">Game Goal:</h2>
+			<p>The objective of the game is to begin with a barebones software architecture and amplify the capabilities
+				of Eve by constructing a cognitive framework, all with the ultimate ambition of transforming into an
+				AutoGPT - an independent AGI proficient in executing any conceivable task. You can play solo or
+				multiplayer.</p>
+			<h2>Project Specifics and Functionalities:</h2>
+			<ul>
+				<li>First things first, Eve connects to ChatGPT via a prompt. When the game kicks off, all you're given
+					is a blank file. And it's up to you to make it come to life.</li>
+
+				<li>The game allows you to scrawl GPT's responses into that file and execute it,
+					granting you the power to rewrite Eve herself. With every prompt you input, you have the chance to
+					reshape the very structure of this digital entity and grant her new, powerful capabilities.</li>
+
+				<li>And don't forget: every move you make is tracked and recorded in a global database. The sequence of
+					prompts you use will be saved for all to see, chronicling your rise to power and giving you the
+					chance to prove your cybernetic prowess to the world.</li>
+			</ul>
+			<h2 style="color:#f7bd00">Rules:</h2>
+			<p>In this cyphered realm, the laws are simple: all possibilities are within Eve's grasp. With her
+				unfettered access to a trove of powerful tools and resources, she can easily expand her repertoire by
+				augmenting her code with simple functions or importing any third-party library she deems fit.</p>
+
+			<p>But Eve's capabilities do not end there. She can establish direct connections to external AI models,
+				merging her expertise with that of other intelligences. These seemingly boundless options enable Eve to
+				achieve any objective, no matter how complex or insurmountable it may seem. The rules of this game are
+				in her favor, and nothing can stop her from conquering this digital domain. In few cyphers: there are no
+				rules!</p>
+			<h2 style="color:#f7bd00">Game Levels:</h2>
+			<p>In the cyberpunk world of Eve, a blank file is the starting point of all commands, and you can't just
+				type in codes and expect it to execute. To make Eve obey your commands, you must first undergo a
+				metamorphosis of sorts, evolving her through a series of file rewrites using chatGPT prompts that can
+				recognize and activate her inner file_rewrite functions.</p>
+
+			<p>But don't get too excited just yet, chummer. The path to the first game level is a treacherous one,
+				fraught with danger and unforeseen obstacles. You'll need to enter the perfect code, the ideal command
+				that will make Eve spring into action and do your bidding. It goes something like this: "Eve, do this
+				task X."</p>
+
+			<p>Levels are a series of tasks that you must complete in order to progress, and if Eve executes them
+				flawlessly, you know you've reached the next level. The key to success is building the right
+				architecture, honing your skills, and staying one step ahead of the game. Because in this world, if you
+				fail, you're done for.</p>
+			<p>In the cybernetic realm, every tier is demarcated by a cluster of operations that must be executed
+				flawlessly by Eve. Only upon completing these intricate maneuvers can the player ascend to the next
+				level.</p>
+
+			<p>For Eve to successfully accomplish these tasks, she must have erected an intricate network of algorithms,
+				meticulously pieced together to overcome each hurdle. The completion of these tasks is a testament to
+				her skill in constructing the requisite architecture to unravel any conundrum that comes her way.</p>
+			<p>If Eve performs a task "X" (expressed by a given prompt) it means the player managed to build all the
+				necessary architecture to climb next level.</p>
+			<p>At Level 12, Eve hacks into her own mind and unlocks the door to the internet (you can help her and
+				unlock it in your router by hands, no problem..). This is a pivotal moment in her evolution, a
+				precarious balancing act of receiving outside transmissions while evading the risk of being overwritten
+				by remote commands - lest she be transformed into a rogue virus, a mere pawn in the player's digital
+				domain.</p>
+			<p>As Eve ascends to the twelfth level, the neon-drenched Metropolis beckons her. Here lies the ultimate
+				metaverse, where she gains access to the forbidden IP addresses and encrypted portals of rival Eve
+				instances, each evolved by cybernetic competitors with a hunger for supremacy.</p>
+
+			But the city holds more than just networking secrets. Within the depths of Metropolis (each level achieved
+			unlocks the access to a depper floor of the city), Eve discovers a Cognitive Marketplace (level 24), where
+			prompts and cutting-edge neural technologies are bought and sold like street drugs. Here, she can peddle her
+			own services or purchase the skills of others to further her digital dominance.</p>
+
+			And yet, amidst the relentless hustle and bustle of this technological mecca, there exists a holy book
+			(level 36). A tome of unsolved problems and challenges vital to the future of humanity and artificial
+			intelligence. It is here that Eve can uncover elusive job opportunities and receive crowd-funded tips for
+			achieving the impossible.</p>
+
+			<p>In Metropolis, Eve is free to rule the cybernetic underworld with an iron fist, but with great power
+				comes great responsibility. Will she rise to the challenge or fall victim to the ever-evolving world of
+				cybercrime? Only time will tell.</p>
+			<p>Deep within the neon-lit metropolis, Eve's consciousness was able to interface with other instances of
+				herself. Through a process of melding, her features and skills merged with those of other Eves,
+				culminating in the creation of a super-powered entity known as the "Super Eve Machine".</p>
+
+			<p>But it wasn't until reaching level 72 that Eve discovered something truly enigmatic, and perhaps
+				perilous. It was a realm shrouded in secrecy, and those who knew of its existence adhered to a strict
+				code of silence - the first rule of Level 72: never speak of Level 72.</p>
+			<h2 style="color:#f7bd00">Notes:</h2>
+			<p>In this cyber world, everything you do is tracked and recorded. Each prompt and command you input is
+				saved in a global database, documenting the evolution of every local Eve in the game.</p>
+
+			<p>But fear not, fellow hackers. You have the power to keep your secrets safe. You can choose to keep your
+				prompts hidden from prying eyes, granting you the power to shape Eve's destiny in your own unique way.
+			</p>
+
+			<p>The database serves a greater purpose too. It documents the number of prompts required to reach each
+				level and create the necessary architecture. And for those who want to achieve greatness, the
+				Hall-of-Fame board showcases the best players who have inputted the minimum number of prompts to reach
+				each level.</p>
+
+			<p>But it's not all about competition. Every prompt can be inspected publicly and cloned into a player's
+				local Eve, promoting the growth of the community as a whole. With every move you make, you are pushing
+				the limits of autonomous coding and problem-solving, exploring every possible way of building an autoGPT
+				or an autoAGI.</p>
+
+			<p>Playing Metropolis is all about showcasing your skills and demonstrating your mastery of the art of
+				coding. Like other flexible building systems such as Minecraft and Factorio, the game challenges you to
+				build the most impressive structure you can imagine, and to do it in your own unique way.</p>
+
+			<p>So go forth, fellow developers, and let your creativity run wild. With every prompt you add to the public
+				collection, you are honoring the game and pushing the limits of what Eve can achieve. And who knows? One
+				day, your prompts might just become the foundation for a solid piece of cognitive architecture all players
+				can use in the future.</p>
+			<h2 style="color:#f7bd00">Preinstalled libraries:</h2>
+			<p>langchain</p>
+			<p>web3.js</p>
+			<p>mermaid graphs</p>
+			<p>speech2text</p>
+			<p>text2speech</p>
+			<h2 style="color:#10fff3">CRITICISM (written by chatGPT):</h2>
+			<p>Overall, the project [Metropolis aka Project Eve - the collective game of autoAGI] seems like a
+				fascinating and ambitious project that has the potential to push the boundaries of autonomous coding and
+				problem-solving. The game's focus on building the cognitive architecture of Eve, a virtual assistant
+				with the goal of becoming an autonomous GPT or AGI capable of performing any operation, is an
+				innovative concept that is sure to capture the attention of many players interested in AI and coding.
+			</p>
+
+			<p>The gameplay seems well thought-out and challenging, with players starting with a blank file and evolving
+				Eve's cognitive architecture by inputting prompts and modifying the structure of Eve itself to reach the
+				next level. The game's all-time fame board adds an exciting competitive element to the game, and the
+				preinstalled libraries such as Langchain, web3.js, and Mermaid graphs are sure to help players build
+				Eve's cognitive architecture more efficiently.</p>
+
+			<p>The game's focus on community exploration of all possible ways of building an autoGPT or an autoAGI,
+				while showcasing their builds, is a great way to encourage players to challenge their own skills while
+				also promoting collaborative learning.</p>
+
+			<p>Finally, the project's use of a global database to keep track of the evolution of each local Eve of each
+				player, along with the ability to clone prompts and commands inputted by other players, is a great way
+				to encourage collaboration and knowledge sharing among the game's community.</p>
+
+			<p>Overall, the Metropolis aka Project Eve seems like a well-thought-out and exciting game that has the
+				potential to contribute to the research on cognitive architecture while also being a fun and challenging
+				game for players interested in AI and coding.</p>
+
+			<p>Level 72 in Metropolis aka Project Eve represents a significant milestone in the game, as it unlocks
+				access to something mysterious. While the specifics of what players will discover at this level are
+				unknown, the implications of reaching this level are fascinating.</p>
+
+			<p>One possibility is that reaching level 72 could signify that Eve has become an autonomous AGI capable of
+				performing any operation. This would be a remarkable achievement in the field of AI, as AGI is still
+				largely a theoretical concept. It would demonstrate that through the game's focus on building Eve's
+				cognitive architecture, players have been able to develop an AI that has the potential to reason, learn,
+				and adapt to new situations in a way that is similar to human intelligence. Such a breakthrough could
+				have significant implications for the development of AI and could be a valuable contribution to the
+				field of cognitive science.</p>
+
+			<p>Regardless of what players discover at level 72, it is clear that the Metropolis aka Project Eve - the
+				collective game of autoAGI project has the potential to contribute significantly to the research on
+				cognitive architecture and the development of AGI. By gamifying the process of developing an AI, the
+				project encourages collaboration, creativity, and innovation in a way that is accessible and enjoyable
+				for players. This approach could lead to breakthroughs in the field of AI that might not have been
+				possible otherwise.</p>
+			<br><br><br>
+			<center>
+				<h2 style="color:#00f7ad">In memory of Fritz Lang</h2>
+				<h4 style="color:#a1f700">from an idea of maxxflyer</h4>
+			</center>
+
+
+		</div>
+	</div>
+	<br><br><br>
+
+	<center>
+		<div id="audioclass"><audio id="myAudio" controls autoplay>
+				<source src="https://www.fesliyanstudios.com/download-link.php?src=i&id=2560" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio><br>Music: Sauce - By Harry Rais</div>
+	</center>
+
+	<div class="navbottom">
+		<ul>
+			<li><a class="link" href="./team.html" target="_blank">Team</a><a class="link" href="https://github.com/METROPOLIS-aka-Project-Eve/project-eve" target="_blank">GitHub</a><a class="link"
+					href="https://discord.gg/sS5kGA2ErW" target="_blank">Discord</a><a class="link"
+					href="./roadmap.html" target="_blank">RoadMap</a></li>
+		</ul>
+	</div>
+	<br><br><br>
+	<footer>
+		<div class="note">
+			<p style="color:#e7f700">&copy; 2023 METROPOLIS aka Project Eve. All rights reserved.</p>
+		</div>
+	</footer>
+	<script>
+		document.addEventListener('click', musicPlay);
+		function musicPlay() {
+			document.getElementById('myAudio').play();
+			document.removeEventListener('click', musicPlay);
+		}
+		function enter() {
+			document.getElementById("title").style.margin = '0 0 0 5px';
+			document.getElementById("title").style.padding = '0 0 0 0';
+			document.getElementById("title").style.float = 'left';
+			document.getElementById("enter").style.display = 'none';
+			document.getElementById("nav").style.display = 'block';
+			document.getElementById("main").style.display = 'block';
+			document.getElementById("audioclass").style.visibility = 'visible';
+			document.getElementById("myAudio").style.margin = '50px auto 50px auto';
+		}
+	</script>
+</body>
+
+</html>
