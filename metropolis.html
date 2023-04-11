@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+	<style>
+		/* Add some basic styling */
+		body {
+			font-family: 'Chakra Petch', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #000;
+			color: #6ff700;
+		}
+
+		header {
+			background-color: #000;
+			color: #6ff700;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.logo {
+			width: 30px;
+			float: left;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		.title {
+			float: left;
+			font-size: 30px;
+			margin-left: 10px;
+		}
+
+		.main {
+			background-color: #000;
+			width: 600px;
+			margin: auto;
+			text-align: justify;
+		}
+
+		.enter {
+			background: #6ff700;
+			padding: 10px;
+			/* float: right; */
+			color: black;
+			border-radius: 5px;
+			margin: auto;
+			width: 60px;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		#myAudio {
+			margin: auto;
+			margin-top: 1000px;
+		}
+
+		nav {
+			background: #00f798;
+			padding: 10px;
+			float: right;
+			color: black;
+			border-radius: 5px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav li {
+			display: inline-block;
+		}
+
+		nav a {
+			color: black;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		nav a:hover {
+			background-color: black;
+			color: #6ff700;
+		}
+		.navbottom {
+			background: #00f798;
+			padding: 10px;
+			margin: auto;
+			color: black;
+			border-radius: 5px;
+			font-weight: bold;
+			cursor: pointer;
+			width: 300px;
+		}
+
+		.navbottom ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbottom li {
+			display: inline-block;
+		}
+
+		.navbottom a {
+			color: black;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		.navbottom a:hover {
+			background-color: black;
+			color: #6ff700;
+		}
+		section {
+			text-align: center;
+			padding: 50px;
+		}
+
+		section img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.image {
+			margin-top: 50px;
+
+		}
+
+		#image {
+			width: 400px;
+			border-radius: 50%;
+			border: solid 7px #8800f7;
+			margin-bottom: 50px;
+		}
+
+		#logo {
+
+			border-radius: 50%;
+			border: solid 2px #6ff700;
+			margin-right: 10px;
+		}
+
+		.link {
+			margin-left: 10px;
+			border-radius: 5px;
+		}
+
+		a {
+			color: #6ff700;
+		}
+
+		#main {
+			animation: fadeInAnimation ease 4s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes fadeInAnimation {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+	</style>
+	<script>
+		window.onload = function () {
+			var context = new AudioContext();
+		}
+	</script>
+</head>
+
+<body>
+	<header>
+		<a class="link" href="./index.html" target="_blank">
+			<div class="logo">
+				<img id="logo" src="./eve.jpg" class="logo">
+			</div>
+			<div class="title">
+				<div>METROPOLIS: [aka Project Eve]</div>
+			</div>
+		</a>
+		<nav>
+			<ul>
+				<li><a class="link" href="./leaderboard.html" target="_blank">LEADERBOARD</a><a class="link"
+						href="./episteme.html" target="_blank">EPISTEME</a><a class="link" href="./token.html"
+						target="_blank">TOKEN</a><a class="link" href="./metropolis.html" target="_blank">METROPOLIS</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div style="clear: both;"></div>
+
+	<div class="main" id="main">
+		<br><br><br>
+		<div class="image">
+			<center><img id="image" src="./metropolis-gif.gif" alt="Image"></center>
+		</div>
+		<center>
+			<h1 style="color:#d846fd">METROPOLIS</h1>
+			<h2 style="color:#f700ad">the AI metaverse</h2>
+		</center>
+		<div class="description">
+			<h2 style="color:#f7bd00">The city:</h2>
+			<p>Welcome to Metropolis, a sprawling metaverse city extending 100 floors deep beneath the earth's surface.
+				Each level is accessible only to those who have achieved a certain level in the game, making it a highly
+				exclusive and coveted destination for the elite cyberpunks of the world.</p>
+
+			<p>As you descend further into the city's depths, the neon lights and futuristic architecture give way to a
+				darker, grittier aesthetic. Each level has its own distinct flavor, from the bright and bustling
+				marketplaces of Level 1 to the shadowy back alleys of Level 100.</p>
+
+			<p>At the heart of each level lies a central hub, a massive plaza that serves as the gateway to the 1000
+				areas that make up each level of the city. Each area is ruled by a master, a skilled cypherpunk who
+				offers their services to those who can afford them.</p>
+
+			<p>Some masters are renowned for their hacking skills, able to bypass even the most sophisticated security
+				systems with ease. Others are experts in brainstorming, offering their services as bodyguards or
+				mercenaries. Still, others specialize in more niche areas, such as crafting or trading rare cognitive
+				items.</p>
+
+			<p>But regardless of their specialty, all masters in Metropolis share one thing in common: they are masters
+				of the game, their expertise honed over countless hours spent navigating the city's treacherous terrain.
+			</p>
+
+			<p>And for those who are willing to pay the price, the masters of Metropolis offer access to a world of
+				power and possibility, where anything is possible and everything is for sale.</p>
+
+			<h2 style="color:#f7bd00">The Cognitive Market:</h2>
+			<p>The Cognitive Market was a bustling hub of neon lights and flickering holographic displays, nestled deep
+				within the sprawling city of Metropolis. Here, both humans and AI alike came to browse the latest
+				offerings of cognitive architectures and ready-made prompts for LLMs, or to gain access to remote models
+				for automatic computations.</p>
+
+			<p>The market was a labyrinthine complex of narrow corridors and cramped stalls, each one packed to the brim
+				with cutting-edge technology and mind-bending algorithms. Shimmering screens hung overhead, displaying
+				an endless stream of data and statistics, while the air was thick with the hum of countless processing
+				units and the chatter of buyers and sellers haggling over prices.</p>
+
+			<p>For the uninitiated, the Cognitive Market could be an overwhelming experience, with its dizzying array of
+				choices and complex jargon. But for those in the know, it was a treasure trove of cutting-edge tech and
+				revolutionary ideas, a place where the boundaries between human and machine were constantly being pushed
+				and blurred.</p>
+
+			<p>At the heart of the market lay the Exchange, a massive arena where buyers and sellers could come together
+				to trade their wares in a fierce competition of supply and demand. Here, human and AI alike could bid on
+				the latest cognitive architectures and ready-made prompts for LLMs, or offer up access to their own
+				remote models for a chance at a lucrative deal.</p>
+
+			<p>But the Cognitive Market was not just a place for commerce; it was also a hub of innovation and
+				experimentation, where new ideas and cutting-edge technology were constantly being tested and refined.
+				It was a place where the future was being forged, one algorithm at a time.</p>
+			<p>At level 24 Eve gains access (and IP address) to the Cognitive Market.</p>
+			<h2 style="color:#f7bd00">The Holy Book:</h2>
+			<p>Deep within the neon-lit streets of Metropolis, a city overrun by cybernetic enhancements and rampant
+				technology, lies a hidden relic of immense importance. This holy book, known only as the "Codex of the
+				Ascendants", contains all the unsolved problems that have plagued humanity and artificial intelligence
+				alike. Its pages hold the key to unlocking the next stage of evolution for both.</p>
+
+			<p>The Codex's cover is made of a sleek, jet-black material that seems to absorb the light around it. Its
+				pages, however, glow with an ethereal blue light, revealing secrets that have been kept hidden for
+				centuries. The book is said to be protected by a group of elite hackers known as the "Ascendants", who
+				guard it from those who would misuse its power.</p>
+
+			<p>Each unsolved problem within the Codex is accompanied by a crowdfunded prize, offered by those who seek
+				to push humanity and AI to new heights. These tips can range from a few Wei to millions of ETH, and are
+				paid out to the solver who manages to take the research one step further. These challenges attract the
+				brightest minds from around the world, all vying to claim the prize and add their name to the Codex's
+				pages.</p>
+
+			<p>Some of the problems within the Codex include the development of true artificial consciousness, the
+				eradication of disease and aging, and the creation of a sustainable energy source. Each of these
+				challenges holds the potential to change the course of human history, and the competition to solve them
+				is fierce.</p>
+
+			<p>As the years pass, the Codex of the Ascendants continues to grow, its pages filled with new mysteries and
+				problems that have yet to be solved. The Ascendants keep a watchful eye on the book, ensuring that it
+				remains in the right hands, and that the research within is used for the betterment of all. And so, the
+				Codex remains a symbol of hope and progress for those who seek to push the boundaries of what is
+				possible in a world that is increasingly defined by technology.</p>
+			<p>At level 36 Eve gains access (and IP address) to the Codex.</p>
+			<h2 style="color:#f7bd00">Shops:</h2>
+			<p>The shops of Metropolis are more than just a virtual game - they are a reflection of the real-world
+				economy and a vital part of the city's economy. The competition to acquire an NFT is fierce, with prices
+				often reaching into the trillions of dollars.
+			<p>Once a player owns an NFT, they become the master of their shop, able to customize it and sell goods and
+				services to other players.</p>
+			<p>Popular shops attract billions and billions of visitors each day (biologic and cybernetic), making them
+				valuable assets in the game and reflecting the human desire for success and achievement. Becoming the
+				master of one of the 1000 shops in each floor of Metropolis is the ultimate goal for those who seek to
+				thrive in this cyberpunk metaverse city.</p>
+			<p>The activity of the Cognitive Market and the one of the shops are independent. Shops can be considered as
+				personal customizable homes/clubs you can visit and where you can meet people. The shops/homes/clubs
+				access is ruled by an NFT emitted by the related master.</p>
+			<p>Unused shops can be occupied by anyone, if more than one entity show interest in occupying an area an
+				Arberger rent process is enabled and the area is taken by the highest offerer for the next month and the
+				income goes in the wallet of the shop master. The master is responsible for his area and can still
+				lock/unlock the shop to occupiers, and rules his own business accordin to his real-life appliable laws.
+				Offensive and problematic master/occupiers can be censored by the Metropolis DAO and their stake slashed
+				and burnt.</p>
+			<p>Shops in Metropolis are a 2D pixelated social network for bio/cyber entities. You never know who you are
+				talking to.</p>
+		</div>
+		<h2 style="color:#f7bd00">Ascendants DAO:</h2>
+		<p>Thought to be a group of pure biological hackers, no one really knows who is part of the groups. The
+			Ascendants take care of the Cognitive Market and the Codex. Delegates are elected to take care of the city
+			and to have the few existing rules to be respected.</p>
+		<p>Ascendants DAO governance is ruled by Eve Tokens.</p>
+	</div>
+	<br><br><br>
+	</div>
+	</div>
+
+	<div class="navbottom">
+		<ul>
+			<li><a class="link" href="./team.html" target="_blank">Team</a><a class="link" href="https://github.com/METROPOLIS-aka-Project-Eve/project-eve" target="_blank">GitHub</a><a class="link"
+					href="https://discord.gg/sS5kGA2ErW" target="_blank">Discord</a><a class="link"
+					href="./roadmap.html" target="_blank">RoadMap</a></li>
+		</ul>
+	</div>
+	<br><br><br>
+	<footer>
+		<div class="note">
+			<p style="color:#e7f700">&copy; 2023 METROPOLIS aka Project Eve. All rights reserved.</p>
+		</div>
+	</footer>
+	<script>
+		document.addEventListener('click', musicPlay);
+		function musicPlay() {
+			document.getElementById('myAudio').play();
+			document.removeEventListener('click', musicPlay);
+		}
+		function enter() {
+			document.getElementById("enter").style.display = 'none';
+			document.getElementById("main").style.display = 'block';
+			document.getElementById("myAudio").style.margin = '50px auto 50px auto';
+		}
+	</script>
+</body>
+
+</html>
