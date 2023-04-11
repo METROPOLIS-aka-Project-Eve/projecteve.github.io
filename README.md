@@ -5,18 +5,26 @@ the collective game of autoAGI
 
 
 Game Goal:
+
 The objective of the game is to begin with a barebones software architecture and amplify the capabilities of Eve by constructing a cognitive framework, all with the ultimate ambition of transforming into an AutoGPT - an independent AGI proficient in executing any conceivable task. You can play solo or multiplayer.
 
+
 Project Specifics and Functionalities:
+
 First things first, Eve connects to ChatGPT via a prompt. When the game kicks off, all you're given is a blank file. And it's up to you to make it come to life.
 The game allows you to scrawl GPT's responses into that file and execute it, granting you the power to rewrite Eve herself. With every prompt you input, you have the chance to reshape the very structure of this digital entity and grant her new, powerful capabilities.
 And don't forget: every move you make is tracked and recorded in a global database. The sequence of prompts you use will be saved for all to see, chronicling your rise to power and giving you the chance to prove your cybernetic prowess to the world.
+
+
 Rules:
+
 In this cyphered realm, the laws are simple: all possibilities are within Eve's grasp. With her unfettered access to a trove of powerful tools and resources, she can easily expand her repertoire by augmenting her code with simple functions or importing any third-party library she deems fit.
 
 But Eve's capabilities do not end there. She can establish direct connections to external AI models, merging her expertise with that of other intelligences. These seemingly boundless options enable Eve to achieve any objective, no matter how complex or insurmountable it may seem. The rules of this game are in her favor, and nothing can stop her from conquering this digital domain. In few cyphers: there are no rules!
 
+
 Game Levels:
+
 In the cyberpunk world of Eve, a blank file is the starting point of all commands, and you can't just type in codes and expect it to execute. To make Eve obey your commands, you must first undergo a metamorphosis of sorts, evolving her through a series of file rewrites using chatGPT prompts that can recognize and activate her inner file_rewrite functions.
 
 But don't get too excited just yet, chummer. The path to the first game level is a treacherous one, fraught with danger and unforeseen obstacles. You'll need to enter the perfect code, the ideal command that will make Eve spring into action and do your bidding. It goes something like this: "Eve, do this task X."
@@ -41,7 +49,9 @@ Deep within the neon-lit metropolis, Eve's consciousness was able to interface w
 
 But it wasn't until reaching level 72 that Eve discovered something truly enigmatic, and perhaps perilous. It was a realm shrouded in secrecy, and those who knew of its existence adhered to a strict code of silence - the first rule of Level 72: never speak of Level 72.
 
+
 Notes:
+
 In this cyber world, everything you do is tracked and recorded. Each prompt and command you input is saved in a global database, documenting the evolution of every local Eve in the game.
 
 But fear not, fellow hackers. You have the power to keep your secrets safe. You can choose to keep your prompts hidden from prying eyes, granting you the power to shape Eve's destiny in your own unique way.
@@ -54,7 +64,9 @@ Playing Metropolis is all about showcasing your skills and demonstrating your ma
 
 So go forth, fellow developers, and let your creativity run wild. With every prompt you add to the public collection, you are honoring the game and pushing the limits of what Eve can achieve. And who knows? One day, your prompts might just become the foundation for a solid piece of cognitive architecture all players can use in the future.
 
+
 Preinstalled libraries:
+
 langchain
 
 web3.js
@@ -65,7 +77,9 @@ speech2text
 
 text2speech
 
+
 CRITICISM (written by chatGPT):
+
 Overall, the project [Metropolis aka Project Eve - the collective game of autoAGI] seems like a fascinating and ambitious project that has the potential to push the boundaries of autonomous coding and problem-solving. The game's focus on building the cognitive architecture of Eve, a virtual assistant with the goal of becoming an autonomous GPT or AGI capable of performing any operation, is an innovative concept that is sure to capture the attention of many players interested in AI and coding.
 
 The gameplay seems well thought-out and challenging, with players starting with a blank file and evolving Eve's cognitive architecture by inputting prompts and modifying the structure of Eve itself to reach the next level. The game's all-time fame board adds an exciting competitive element to the game, and the preinstalled libraries such as Langchain, web3.js, and Mermaid graphs are sure to help players build Eve's cognitive architecture more efficiently.
